@@ -4,7 +4,7 @@ t1 = time.time()
 number = 0
 with open("the2_tester_data.txt","r") as file:
     data = file.read().split("\n")
-    data[0] = data[0][1:]
+    data[0] = data[0][3:]
     for ii in data:
         a = int(ii[3:5])
         b = int(ii[6:8])
